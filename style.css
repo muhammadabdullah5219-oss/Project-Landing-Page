@@ -25,6 +25,7 @@ fifth section 25vh */
     justify-content: flex-start;
     align-items: stretch;
     padding: 0 15vw;
+    gap: 10vh;
 }
 
 .header {
@@ -41,6 +42,36 @@ fifth section 25vh */
 }
 a{
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heroFirstChild{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.heading{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    line-height: 1em;
+}
+.description{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.button{
+    background-color: #3882F6;
+    padding: 0.75em 1.5em;
+    border-radius: 1em;
+    border: none;
     color: #F9FAF8;
 }
 
