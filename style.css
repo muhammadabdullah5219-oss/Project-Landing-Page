@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 250vh;
+    font-family: "Roboto";
+}
+
+/* first section 75vh
+second section 50vh
+third section 50vh
+fourth section 50vh
+fifth section 25vh */
