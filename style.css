@@ -23,7 +23,8 @@ fifth section 25vh */
     flex-direction: column;
 
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
+    padding: 0 15vw;
 }
 
 .header {
@@ -36,6 +37,7 @@ fifth section 25vh */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
 }
 a{
     text-decoration: none;
