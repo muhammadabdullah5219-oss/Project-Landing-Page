@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 250vh;
+    height: 235vh;
     font-family: "Roboto";
 }
 
@@ -17,19 +17,28 @@ third section 50vh
 fourth section 50vh
 fifth section 25vh */
 
-.firstSection{
+.firstSection {
     height: 75vh;
 }
 
-.secondSection{
+.secondSection {
     height: 50vh;
 }
-.thirdSection{
+
+.thirdSection {
+    height: 50vh;
+    background-color: #E5E7EB;
+}
+
+.fourthSection {
     height: 50vh;
 }
-.fourthSection{
-    height: 50vh;
+
+.footer {
+    height: 10vh;
 }
-.footer{
-    height: 25vh ;
+
+.firstSection,
+.footer {
+    background-color: #1F2937;
 }
