@@ -16,3 +16,20 @@ second section 50vh
 third section 50vh
 fourth section 50vh
 fifth section 25vh */
+
+.firstSection{
+    height: 75vh;
+}
+
+.secondSection{
+    height: 50vh;
+}
+.thirdSection{
+    height: 50vh;
+}
+.fourthSection{
+    height: 50vh;
+}
+.footer{
+    height: 25vh ;
+}
