@@ -34,40 +34,48 @@ fifth section 25vh */
     justify-content: space-between;
     align-items: baseline;
     flex-direction: row;
+    gap: 18px;
 }
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
 }
-a{
+
+a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
 }
 
-.hero{
+.hero {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
 }
-.heroFirstChild{
+
+.heroFirstChild {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
 }
-.heading{
+
+.heading {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
     line-height: 1em;
 }
-.description{
+
+.description {
     font-size: 18px;
     color: #E5E7EB;
 }
-.button{
+
+button {
     background-color: #3882F6;
     padding: 0.75em 1.5em;
     border-radius: 1em;
@@ -77,19 +85,112 @@ a{
 
 .secondSection {
     height: 50vh;
+    padding: 25px 20vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;
+    gap: 20px;
 }
+.box{
+    height: 125px;
+    width: 125px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+.secondSection>p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.secondSecFlex{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    
+}
+.secondSecSubFlex{
+    min-width: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    flex-shrink: 1;
+}
+.secondSecSubFlex>p{
+    font-size: 18px;
+    color: #565c68;
+}
+
 
 .thirdSection {
     height: 50vh;
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 150px;
 }
+blockquote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: 600;
+}
+
+
 
 .fourthSection {
     height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.ctaBox{
+    min-width: 70vw;
+    min-height: 25vh;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5vh 10vh;
+    
+    display: flex;
+    align-items: center;
+    
+}
+.ctaHeading{
+    color: white;
+    font-size: 26px;
+}
+.ctaDescription{
+    color: white;
+    font-size: 18px;
+}
+.ctaBox>button{
+    border: 2.5px solid white;
+    padding: 0.75em 1.5em;
+    border-radius: 1em;
+}
+.ctaBox>div{
+    margin-right: auto;
+}
+
+
+
 
 .footer {
     height: 10vh;
+    color: #E5E7EB;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .firstSection,
